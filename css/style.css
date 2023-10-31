@@ -4,33 +4,22 @@ body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-family: 'Hind', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
-
 p {
     margin: 0;
     letter-spacing: 1px;
     color: #777777;
 }
-
 ul {
     margin: 0;
     padding: 0;
     color: #777777;
 }
-
-p,
-ul,
-ol {
+p,ul,ol {
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -3081,7 +3070,7 @@ ul.w3_short li {
     }
     nav.navbar.navbar-default {
         background: none;
-        padding: 0.1em 0 0.2em 0;
+        padding: 0.2em 0 0.2em 0;
     }
     ul.agile_forms {
         margin-bottom: 1em;
@@ -3562,7 +3551,7 @@ ul.w3_short li {
         font-size: 1.7em;
     }
     .w3layouts_stats_left p {
-        font-size: 2em;
+        font-size: 1.3em;
     }
     .mobile-nav-button {
         margin: 0.5em 0em 0;
@@ -3611,7 +3600,7 @@ ul.w3_short li {
         line-height: 1.4em;
     }
     .w3layouts_stats_left span {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     .agile_wthree_inner_grids {
         margin-top: 1.5em;
