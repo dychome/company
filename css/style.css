@@ -210,8 +210,8 @@ a.w3l_header_contact_details_agile-info_inner,
 .agileits_w3layouts_banner_nav {
     margin: 0 auto;
     width: 100%;
-    position: absolute;
-    z-index: 99;
+    /* position: absolute;*/
+    /* z-index: 99;  */
     text-align: center;
     padding: 0em 3em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -286,7 +286,7 @@ nav.navbar.navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .navbar-nav>.active.open>a:focus {
@@ -319,7 +319,7 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -330,13 +330,13 @@ a.navbar-brand {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-    color: #fff;
+    color: #00b7f1;
     background: none;
 }
 
 .agile_short_dropdown {
     border-radius: 0;
-    background: #ffffff;
+    background: #fff;
     text-align: center;
     padding: 0;
     border: none;
@@ -552,8 +552,7 @@ a.rslides_nav.rslides1_nav.next {
     position: relative;
 }
 
-ul#slider li:nth-child(1) {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/banner1.jpg)no-repeat 0px 0px;
+ul#slider li {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -562,35 +561,6 @@ ul#slider li:nth-child(1) {
     min-height: 700px;
 }
 
-ul#slider li:nth-child(2) {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/banner2.jpg)no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 700px;
-}
-
-ul#slider li:nth-child(3) {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/banner3.jpg)no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 700px;
-}
-
-ul#slider li:nth-child(4) {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/banner4.jpg)no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 700px;
-}
 
 
 /*-- responsive-mediaqueries --*/
@@ -762,7 +732,7 @@ ul#slider li:nth-child(4) {
 /*-- banner-bottom --*/
 
 .banner-bottom {
-    padding: 10em 0 8em 0;
+    padding: 5em 0;
 }
 
 .banner-bottom.inner {
@@ -820,11 +790,12 @@ ul#slider li:nth-child(4) {
 }
 
 .about_agileinfo h3 {
-    text-align: left;
-    margin-top: 2em;
+    text-align: center;
+    margin-top: 1em;
     line-height: 30px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.3em;
+	font-weight:600;
     margin-bottom: 0;
     color: #303030;
 }
@@ -836,6 +807,14 @@ ul#slider li:nth-child(4) {
 .about_agileinfo p {
     line-height: 2em;
     margin: 1em 0;
+    color: #989898;
+    letter-spacing: 1px;
+}
+.about_agileinfo span {
+	display: block;
+	text-align: center;
+    line-height: 2em;
+    margin-bottom: 1em ;
     color: #989898;
     letter-spacing: 1px;
 }
@@ -870,8 +849,8 @@ h3.w3l_header.w3_agileits_header.two {
 }
 
 .w3l_header span {
-    color: #545151;
-    font-weight: 200;
+    color: #000;
+    font-weight: 500;
 }
 
 h3.w3l_header.w3_agileits_header.two span {
@@ -981,7 +960,7 @@ h3.agile_tittle span {
 /*-- //about --*/
 
 .mid-one {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/jjzs2.jpg)no-repeat 0px 0px;
+    background: url(../images/2/jjzs2.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -991,7 +970,7 @@ h3.agile_tittle span {
 }
 
 .mid-two {
-    background: url(https://i1.wp.com/deyoucheng.com/images/2/jjzs1.jpg)no-repeat 0px 0px;
+    background: url(../images/2/jjzs1.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1075,24 +1054,24 @@ h3.agile_tittle span {
 }
 
 .w3layouts_stats_left p {
-    font-size: 3em;
-    font-weight: 100;
+    font-size: 2.5em;
+    font-weight: 500;
     letter-spacing: 2px;
-    color: #ffffff;
-    margin: 0.1em 0 0.1em 0;
+    color: #222222;
+    margin: 0.3em 0;
 }
 
 .w3layouts_stats_left h3 {
     font-size: 1em;
-    color: #062d20;
+    color: #777;
     letter-spacing: 3px;
     margin: 0;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .w3layouts_stats_left span {
-    font-size: 2.5em;
-    color: #fff;
+    font-size: 5em;
+    color: #235ad9;
 }
 
 .w3l_stats_bottom_grid_left img {
@@ -2401,10 +2380,16 @@ h2.typoh2 {
 
 .w3layouts_footer_grid p {
     font-size: 1em;
-    line-height: 2em;
-    margin-bottom: 2em;
+    line-height: 1em;
+    margin-bottom: 1em;
+	color:#ccc;
 }
-
+.w3layouts_footer_grid p a{
+    display:block;
+	float:left;
+	color:#ccc;
+	padding:0 0.5em 1em 0;
+}
 p.copyright {
     color: #fff;
     line-height: 1.8em;
@@ -2592,10 +2577,10 @@ ul.w3_short li {
         margin-top: 3em;
     }
     .w3layouts_stats_left p {
-        font-size: 3em;
+        font-size: 2em;
     }
     .w3layouts_stats_left span {
-        font-size: 2.3em;
+        font-size: 3em;
     }
 }
 
@@ -2853,7 +2838,7 @@ ul.w3_short li {
         width: 31%;
     }
     .w3layouts_stats_left p {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     .wthree_banner_bottom_grid_right h4 {
         font-size: 1.4em;
@@ -2995,8 +2980,8 @@ ul.w3_short li {
         font-size: .8em;
     }
     .navbar-toggle {
-        margin: 0em 0 0;
-        padding: 12px 10px;
+        margin: 0.1em 0 0;
+        padding: 15px 10px;
     }
     .navbar-default .navbar-toggle {
         border: none;
@@ -3096,7 +3081,7 @@ ul.w3_short li {
     }
     nav.navbar.navbar-default {
         background: none;
-        padding: 1em 0 0.2em 0;
+        padding: 0.1em 0 0.2em 0;
     }
     ul.agile_forms {
         margin-bottom: 1em;
@@ -3147,10 +3132,6 @@ ul.w3_short li {
     .navbar-header.navbar-left {
         margin-top: 0;
     }
-    nav.navbar.navbar-default {
-        background: none;
-        padding: 0.7em 0 0em 0;
-    }
     .w3l_header {
         font-size: 2.5em;
     }
@@ -3161,7 +3142,7 @@ ul.w3_short li {
 
 @media(max-width:736px) {
     .w3layouts_stats_left h3 {
-        font-size: 0.9em;
+        font-size: 1em;
         letter-spacing: 2px;
     }
     .w3l_footer_nav li {
@@ -3275,7 +3256,7 @@ ul.w3_short li {
     .banner-bottom,
     .f-bg-w3l,
     .banner-bottom.inner {
-        padding: 3em 0;
+        padding: 1.5em 0;
     }
     .contact-form.agile_inner_grids {
         padding: 2em 1em;
@@ -3367,7 +3348,7 @@ ul.w3_short li {
     .w3layouts_stats_left {
         float: left;
         width: 50%;
-        padding: 0;
+        padding: 0 10px;
         margin-bottom: 2em;
     }
     p.agileits_w3ls_copyright {
@@ -3474,8 +3455,8 @@ ul.w3_short li {
         font-size: 0.8em;
     }
     .agile_banner_text_info {
-        top: 38%;
-        left: 15%;
+        top: 18%;
+        left: 10%;
     }
     .rslides_tabs {
         bottom: -11%;
@@ -3516,7 +3497,7 @@ ul.w3_short li {
         font-size: 1.2em;
     }
     ul#slider li:nth-child(1), ul#slider li:nth-child(2), ul#slider li:nth-child(3), ul#slider li:nth-child(4) {
-        min-height: 279px;
+        min-height: 195px;
     }
 }
 
@@ -3712,6 +3693,4 @@ ul.w3_short li {
         width: 82%;
     }
 }
-
-
 /*--//responsive--*/
