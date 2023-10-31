@@ -3667,11 +3667,11 @@ ul.w3_short li {
         font-size: 1.7em;
     }
     .agile_banner_text_info {
-        top: 37%;
-        left:5%;
+        top:15%;
+        left:8%;
     }
     ul#slider li:nth-child(1), ul#slider li:nth-child(2), ul#slider li:nth-child(3), ul#slider li:nth-child(4) {
-        min-height: 243px;
+        min-height: 150px;
     }
     .agile_banner_text_info h3 {
         font-size: 1.7em;
