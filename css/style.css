@@ -453,7 +453,7 @@ a.navbar-brand {
 
 .rslides img {
     display: block;
-    height: auto;
+    min-height: 200px;
     float: left;
     width: 100%;
     border: 0;
@@ -2599,7 +2599,7 @@ ul.w3_short li {
         min-height: 653px;
     }
     .banner-bottom {
-        padding: 8em 0 5em 0;
+        padding: 2em 0 2em 0;
     }
     .w3l_header {
         font-size: 2.7em;
@@ -2710,7 +2710,7 @@ ul.w3_short li {
     ul#slider li:nth-child(2),
     ul#slider li:nth-child(3),
     ul#slider li:nth-child(4) {
-        min-height: 526px;
+        min-height: 380px;
     }
 }
 
@@ -2969,7 +2969,7 @@ ul.w3_short li {
         font-size: .8em;
     }
     .navbar-toggle {
-        margin: 0.1em 0 0;
+        margin: 0.3em 0 0;
         padding: 15px 10px;
     }
     .navbar-default .navbar-toggle {
@@ -3540,8 +3540,8 @@ ul.w3_short li {
 
 @media(max-width:384px) {
     .agile_banner_text_info {
-        top: 39%;
-        left: 9%;
+        top: 30%;
+        left: 7%;
     }
     .wthree_head_section h2 {
         font-size: 1.7em;
@@ -3551,7 +3551,7 @@ ul.w3_short li {
         font-size: 1.7em;
     }
     .w3layouts_stats_left p {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .mobile-nav-button {
         margin: 0.5em 0em 0;
@@ -3667,7 +3667,7 @@ ul.w3_short li {
         font-size: 1.7em;
     }
     .agile_banner_text_info {
-        top:15%;
+        top:30%;
         left:8%;
     }
     ul#slider li:nth-child(1), ul#slider li:nth-child(2), ul#slider li:nth-child(3), ul#slider li:nth-child(4) {
