@@ -138,7 +138,7 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
     color: #efb312;
 }
 .categories{
-	margin:3em 0;
+	margin:0 0 2em;
 }
 .posts,.categories,.tags1{
     padding: 1.5em;
