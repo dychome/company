@@ -36,6 +36,8 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 .event-left1-left{
 	padding:0;
 	position:relative;
+	width:33%;
+	float:left;
 }
 .event-left1-left-pos {
     position: absolute;
@@ -51,7 +53,7 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
     margin: 0 0.5em;
 }
 .event-left1-left-pos ul li a{
-	font-size:0.9em;
+	font-size:0.5em;
     color: #fff;
     text-decoration: none;
 }
@@ -63,8 +65,10 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 	  color: #00b7f1;
 }
 .event-left1-right{
-	padding-right:0;
-	margin: 2em 0 0;
+	/* padding-right:0; */
+	/* margin: 2em 0 0; */
+	float:right;
+	width:65%;
 }
 .event-left1-right h4{
     font-size: 1.2em;
@@ -316,16 +320,16 @@ nav.paging1 {
 }
 @media (max-width:480px){
 	.event-left1-left {
-		float: none;
-		width: 100%;
+		/* float: none; */
+		width: 30%;
 	}
 	.event-left1-left-pos ul li {
-		margin: 0 2.5em 0 0;
+		margin: 0;
 	}
 	.event-left1-right {
-		margin: 2em 0 0;
-		float: none;
-		width: 100%;
+		/* margin: 2em 0 0; */
+		/* float: none; */
+		width: 67%;
 	}
 	.agileinfo-event-left1-left {
 		margin-top: 2em;
