@@ -839,8 +839,11 @@ h3.w3l_header.w3_agileits_header.two {
 .w3l_header span {
     color: #777;
     font-weight: 400;
+	margin-right:5px;
 }
-
+.w3l_header span.golden {color:#ffb61e;}
+.w3l_header span.silvery{color:#a1afc9;}
+.w3l_header span.coppery{color:#a98175;}
 h3.w3l_header.w3_agileits_header.two span {
     color: #fff;
 }
