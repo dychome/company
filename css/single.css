@@ -34,19 +34,26 @@ input[type="submit"],input[type="reset"],a,.w3ls_team_grid1_pos ul li{
 }
 /*-- single --*/
 .single-left1 h3{
-	margin: 2em 0 1em;
+	margin: .3em 0 1em;
     letter-spacing:1px;
     font-size: 1.4em;
     color: #212121;
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 .single-left1 ul li{
 	display:inline-block;
 	margin-right:3em;
 }
 .single-left1 ul li span{
-color: #00b7f1;
+	color: #00b7f1;
     padding-right: 1em;
+}
+.single-left1 ul li span.equity{
+	color: #555;
+    display: block;
+	margin-top: 1em;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 .single-left1 ul li a{
 color: #555;
@@ -210,7 +217,7 @@ color: #00b7f1;
 	.single-left1 h3 {
 		margin: 1em 0 1em;
 		letter-spacing: 1px;
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 	.admin {
 		margin: 2em 0;
@@ -233,7 +240,7 @@ color: #00b7f1;
 }
 @media (max-width:640px){
 	.single-left1 h3 {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 	.leave-coment-form input[type="text"], .leave-coment-form input[type="email"], .leave-coment-form textarea {
 		width: 48.4%;
@@ -247,7 +254,7 @@ color: #00b7f1;
 		padding: 0;
 	}
 	.single-left1 h3 {
-		font-size: 1.1em;
+		font-size: 1.2em;
 		letter-spacing: 0;
 	}
 	.single-left2-left {
@@ -281,7 +288,7 @@ color: #00b7f1;
 }
 @media (max-width: 414px){
 	.single-left1 h3 {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 	.single-left1 ul li {
 		margin-right: 1em;
